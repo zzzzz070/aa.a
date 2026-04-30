@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Только для тебя</title>
+  <link rel="stylesheet" href="Ai.css">
+</head>
+<body>
+
+<div class="container" id="login">
+  <h1>Вход только для тебя ❤️</h1>
+
+  <input type="text" id="name" placeholder="Кому отдашь свое сердце (введи имя)">
+  <input type="password" id="pass" placeholder="Пароль...">
+
+  <button onclick="enter()">Войти</button>
+
+  <p id="hint"></p>
+</div>
+
+<div class="container hidden" id="letter">
+  <div class="envelope" onclick="openLetter()">
+    <p>Нажми, чтобы открыть 💌</p>
+  </div>
+
+  <div class="message hidden" id="message">
+    <h2>Для тебя ❤️</h2>
+     <p>
+Я давно хотел сказать это…<br><br>
+что ты мне очень нравишься.<br>
+Прямо дико нравишься.<br><br>
+
+Понимаю, что ты уже догадываешься...<br><br>
+
+Ты прекрасна.<br>
+Ты мне очень дорога. Я тебя обожаю и люблю.<br><br>
+
+Надеюсь, это будет долго...<br><br>
+
+И теперь скажу самое главное:<br>
+хочешь встречаться? ^-^
+     </p>
+     <div class="signature">
+  от Алан ❤️
+     </div>
+  </div>
+</div>
+
+<script src="Ai.js"></script>
+</body>
+</html>
